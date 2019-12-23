@@ -1,12 +1,15 @@
 import React from 'react';
-import {ScoreBoard} from './ScoreBoard';
-
+import {ScoreBoard} from './components/ScoreBoard';
+import {Route} from 'react-router-dom';
 import './App.css';
+import {NavMenu} from './components/NavMenu';
+
 
 function App() {
   return (
     <div className="App">
-      <ScoreBoard />
+     <NavMenu />
+     <Route path = '/score' component = {ScoreBoard} />
     </div>
   );
 }

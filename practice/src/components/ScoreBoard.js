@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+
 export const ScoreBoard = () => {
 
     const [homeCount, setHomeCount] = useState(0);
