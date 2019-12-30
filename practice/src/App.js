@@ -5,11 +5,13 @@ import './App.css';
 import {NavMenu} from './components/NavMenu';
 
 
+
 function App() {
   return (
     <div className="App">
      <NavMenu />
      <Route path = '/score' component = {ScoreBoard} />
+     
     </div>
   );
 }

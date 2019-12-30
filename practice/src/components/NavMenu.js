@@ -6,6 +6,7 @@ export const NavMenu = () =>{
         <div className = 'link'>
             <Link to= '/home'>Home</Link>
             <Link to= '/score'>Score</Link>
+            <Link to= '/calculator'>AnotherOne</Link>
         </div>
     )
 }
